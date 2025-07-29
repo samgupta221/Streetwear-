@@ -1,0 +1,71 @@
+.topbar-bg {
+  background: linear-gradient(90deg,#232323 70%,#dc143c 130%);
+  box-shadow: 0 2px 16px #0002;
+}
+
+.topbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.3rem;
+}
+
+.topbar-logo {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: 'Fira Mono', Arial, monospace;
+}
+
+.topbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+}
+
+.topbar-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: .65em 1.2em;
+  border-radius: 7px;
+  font-size: 1.06rem;
+  transition: background .14s, color .14s;
+}
+
+.topbar-link:hover {
+  background: #fff1;
+  color: #dc143c;
+}
+
+.cart-link {
+  position: relative;
+  padding: 0 .7em;
+}
+
+.cart-img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  filter: drop-shadow(0 1.5px 3px #2225);
+}
+
+.cart-badge {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  background: #dc143c;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: bold;
+  padding: 2px 9px;
+  border-radius: 55px;
+  box-shadow: 0 1px 8px #dc143c47;
+  pointer-events: none;
+}

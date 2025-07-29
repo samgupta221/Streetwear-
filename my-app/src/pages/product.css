@@ -1,0 +1,88 @@
+.product-list-bg {
+  min-height: 100vh;
+  background: linear-gradient(115deg, #212137 65%, #dc143c 120%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.product-list-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #dc143c33, 0 2px 0 #dc143c;
+  padding: 38px 32px 32px 32px;
+  min-width: 380px;
+  max-width: 700px;
+  width: 100%;
+}
+.product-list-title {
+  color: #dc143c;
+  margin-bottom: 1.2rem;
+  font-size: 2.1rem;
+  letter-spacing: 0.8px;
+  font-family: 'Fira Mono', monospace, Arial;
+  text-align: center;
+}
+.product-list-empty {
+  margin: 36px 0 20px 0;
+  text-align: center;
+  color: #a91b27;
+  font-size: 1.17rem;
+  background: #fff0f3;
+  border: 1.4px solid #dc143c22;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: monospace;
+}
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 32px;
+}
+.product-list-carditem {
+  background: linear-gradient(90deg,#fff 75%,#ffe3ea 100%);
+  border-radius: 16px;
+  box-shadow: 0 1.5px 10px #dc143c15;
+  padding: 18px 16px 15px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+  transition: box-shadow 0.18s, transform 0.16s;
+  text-decoration: none;
+  color: #222;
+}
+.product-list-carditem:hover {
+  box-shadow: 0 8px 21px #dc143c28;
+  transform: translateY(-3px) scale(1.017);
+}
+.product-list-carditem img {
+  width: 109px;
+  height: 109px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  margin-top: 4px;
+  border: 2px solid #fae6e6;
+}
+.product-list-carditem h2 {
+  margin: 0 0 7px 0;
+  font-size: 1.13rem;
+  font-weight: bold;
+  color: #dc143c;
+  letter-spacing: .7px;
+  text-align: center;
+}
+.product-list-carditem .desc {
+  text-align: center;
+  color: #253;
+  font-size: .97rem;
+  margin-bottom: 8px;
+}
+.product-list-carditem .price {
+  font-size: 1.13rem;
+  color: #111;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
