@@ -44,26 +44,3 @@ A modern, responsive e-commerce website inspired by Formula 1 culture and street
 └── assets/
     └── images/
 ```
-
----
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/your-username/f1-streetwear-store.git
-   ```
-
-2. **Navigate to the project folder**
-
-   ```bash
-   cd f1-streetwear-store
-   ```
-
-3. **Open `index.html`**
-
-   * Use Live Server (recommended)
-   * Or open directly in your browser
-
----
